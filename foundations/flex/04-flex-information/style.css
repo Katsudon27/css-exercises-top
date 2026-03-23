@@ -22,7 +22,14 @@ img {
 }
 
 .flex-item {
+  flex-basis: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
 
+.text{
+  text-align: center;
 }
 
 /* do not edit this footer */
