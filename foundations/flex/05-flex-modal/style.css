@@ -44,6 +44,7 @@ body {
   justify-content: space-between;
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .close-button {
@@ -59,6 +60,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.text{
+  margin-bottom: 10px;
 }
 
 button {
