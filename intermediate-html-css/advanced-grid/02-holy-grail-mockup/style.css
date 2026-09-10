@@ -23,6 +23,26 @@
   background-color: #393f4d;
 
   grid-column: 1 / span 2;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+}
+
+.logo {
+  justify-self: start;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.menu li {
+  list-style: none;
 }
 
 .menu ul,
